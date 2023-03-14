@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Contact info</title>
+
+</head>
+<body>
+    <h3>Contact Information</h3>
+    <hr>
+    <p>Phone number: +57 xxxxxx</p>
+    <p>Email: jsxxxxxx@gmail.com</p>
+    <p>City: Chía, Colombia</p>
+    <!--Inputs that send information to your default email, which in this case is gmail in the server. Enctype is to not encode and send in plain text.-->
+    <form action="mailto:jsxxxxx@gmail.com" method="post" enctype="text/plain">
+        <label for="">Your Name:</label>
+        <input type="text" name="nombre"><br>
+        <label for="">Your Email:</label>
+        <input type="email" name="correo" id=""><br>
+        <label for="">Your Message:</label><br>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
